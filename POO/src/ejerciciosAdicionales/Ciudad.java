@@ -64,5 +64,6 @@ public class Ciudad {
 	public double[] getMaximas() {
 		return this.temperaturaMaxima;
 	}
+	//pureba git
 
 }
