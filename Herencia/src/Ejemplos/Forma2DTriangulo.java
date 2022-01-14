@@ -1,9 +1,9 @@
-package pq1;
+package Ejemplos;
 
-public class Triangulo extends Forma2D{
+public class Forma2DTriangulo extends Forma2D{
 	String estilo;
 	
-	public Triangulo(String estilo, double w, double h) {
+	public Forma2DTriangulo(String estilo, double w, double h) {
 		super(w,h);
 		this.estilo = estilo;
 		setHeight(h);

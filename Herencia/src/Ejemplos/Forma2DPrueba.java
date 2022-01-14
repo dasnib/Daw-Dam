@@ -1,4 +1,4 @@
-package pq1;
+package Ejemplos;
 
 public class Forma2DPrueba {
 
@@ -9,7 +9,7 @@ public class Forma2DPrueba {
 		miForma.showDim();
 		System.out.println();
 		
-		Triangulo t1 = new Triangulo("Doble linea", 2.3, 4.5);
+		Forma2DTriangulo t1 = new Forma2DTriangulo("Doble linea", 2.3, 4.5);
 		t1.showDim();
 		System.out.println("Area " + t1.area());
 		t1.showStyle();

@@ -1,4 +1,4 @@
-package pq1;
+package Ejemplos;
 
 public class Forma2D {
 	private double width;
