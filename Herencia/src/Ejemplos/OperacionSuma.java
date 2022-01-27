@@ -11,6 +11,18 @@ public class OperacionSuma extends Operacion{
 		return super.getOperando1() + super.getOperando2();
 	}
 
+	public boolean mismoSigno() {
+		if ((super.getOperando1() >= 0 && super.getOperando2() >= 0) ||
+		(super.getOperando1() <= 0 && super.getOperando2() <= 0)) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean mismoSigno2() {
+		return super.getOperando1() * super.getOperando2() >= 0;
+	}
+	
 	@Override
 	public String toString() {
 		return "Suma " + getOperando1() + " con " + getOperando2();

@@ -5,6 +5,7 @@ public class OperacionPrueba {
 	public static void main(String[] args) {
 		OperacionSuma s1 = new OperacionSuma(3,4);
 		System.out.println(s1);
+		System.out.println("Los dos operandos tiene el mismo signo: " + s1.mismoSigno());
 		System.out.println("Resultado= "+ s1.operar() + "\n");
 		
 		OperacionResta r1 = new OperacionResta(7, 5);
