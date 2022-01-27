@@ -3,7 +3,7 @@ package Instrumento;
 public class Guitarra extends Instrumento{
 
 	public Guitarra() {
-		
+		tipo = "Guitarra";
 	}
 	
 	@Override
