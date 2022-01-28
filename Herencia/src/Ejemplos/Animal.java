@@ -37,5 +37,14 @@ public class Animal {
 	public String toString() {
 		return "Animal [categoria=" + categoria + ", patas=" + patas + "]";
 	}
+	
+	@Override
+	public boolean equals (Object otro) {
+		Animal a = (Animal)otro;
+		if (a.categoria.equals(categoria) && a.patas == patas) {
+			return true;
+		}
+		return false;
+	}
 
 }

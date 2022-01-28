@@ -27,6 +27,14 @@ public class AvePrueba {
 			}
 		}
 		
+		Ave a1 = new Ave ("Halcón Mexicano", "Cuate aqui hay tomate", 85);
+		Ave a2 = new Ave ("Halcón Mexicano", "Cuate aqui hay tomate", 95);
+		if (a1.equals(a2)) {
+			System.out.println("Son iguales");
+		}
+		else {
+			System.out.println("No son iguales");
+		}
 
 	}
 	

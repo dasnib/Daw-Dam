@@ -64,5 +64,17 @@ public class Ave {
 				+ numeroIndividuos + "]";
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		Ave a = (Ave) obj;
+		if (a.nombreCientífico.equals(nombreCientífico) && a.nombreVulgar.equals(nombreVulgar) 
+				&& a.numeroIndividuos == numeroIndividuos) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 	
 }

@@ -1,5 +1,7 @@
 package Ejemplos;
 
+import java.util.Objects;
+
 public abstract class Operacion {
 	private double operando1;
 	private double operando2;
@@ -32,6 +34,20 @@ public abstract class Operacion {
 	public double getResultado() {
 		return resultado;
 	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(operando1, operando2);
+	}
+	
+	/*@Override
+	public boolean equals (Object o) {
+		Operacion op = (Operacion) o;
+		if (op.operando1 == operando1 && op.operando2 == operando2) {
+			return true;
+		}
+		return false;
+	}*/
 	
 	
 }
